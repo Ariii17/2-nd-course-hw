@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Montserrat";
 }
@@ -15,7 +20,7 @@ body {
   background-size: cover;
 }
 
-.dobr {
+h1 {
   color: #FFF;
   font-size: 64px;
   font-style: normal;
@@ -101,7 +106,7 @@ body {
     padding-left: 16px;
     padding-right: 16px;
   }
-  .dobr {
+  .h1 {
     font-size: 32px;
   }
 }/*# sourceMappingURL=style.css.map */
