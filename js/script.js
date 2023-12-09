@@ -13,7 +13,7 @@ let summ = ten + two;
 let raz = ten - two;
 let pro = ten * two;
 let chas = ten / two;
-alert (summ + raz + pro + chas); 
+alert (summ); alert(raz); alert(pro); alert(chas); 
 
 let result = 2**5;
 alert (result);
