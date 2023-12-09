@@ -42,7 +42,15 @@ const user ={
 };
 user["city of Residence"] = 'Novosibirsk';
 
+alert(user["city of Residence"]);
 
-//*9.1*//
+user['age'] = 27;
+alert(user[age]);
 
-alert(user["city of Residence"])
+delete user.cityofResidence;
+
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+alert(user[info]);
+
+let ask = prompt('Как вас зовут?');
+alert('Привет, ' + ask + ' !');
