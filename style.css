@@ -180,3 +180,6 @@ h3 {
   background: #202027;
   background-image: url(img/bckmini.png);
 }
+.next_content {
+  height: 200px;
+}
