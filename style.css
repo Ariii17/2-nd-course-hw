@@ -73,7 +73,7 @@ body {
 
 .middle {
     background: #202027;
-    ;
+    background-image: url(img/bckggame.png);
 }
 
 .content {
@@ -90,7 +90,7 @@ body {
     padding-top: 24px;
     max-width: 740px;
 }
-.name_name {
+h3 {
     color: #FFF;
     font-size: 64px;
     font-style: normal;
@@ -108,19 +108,41 @@ body {
     padding-top: 32px;
     max-width: 720px;
 }
+.game_container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      gap: 32px;
+}
 
 .game {
-    color: #FFF;
+    color: #202027;
     font-style: normal;
-    font-weight: 600;
-    line-height: 32px;
-    font-size: 24px;
-    width: 378px;
-    height: 473px;
-    padding-left: 32px;
-    padding-top: 237px;
+    font-weight: 700;
+    font-size: 32px;
     text-decoration: none;
     background-color: #fff;
+    width: 354px;
+    height: 159px;
+    border-radius: 30px;
+    padding-top: 338px;
+    padding-left: 24px;
+}
+.game_num {
+  background-color: #F7F7F7;
+  width: 108px;
+  font-size: 16px;
+  height: 36px;
+  border-radius: 52px;
+  text-align: center;
+}
+.game_name {
+  margin-top: 24px;
+  padding-left: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  width: 117px;
 }
 
 .game_1 {
@@ -131,9 +153,30 @@ body {
 .game_2 {
     background-image: url(img/game2.png);
     background-repeat: no-repeat;
+    height: 198px;
 }
 
 .game_3 {
     background-image: url(img/game3.png);
     background-repeat: no-repeat;
+}
+.game_4 {
+  background-image: url(img/game4.png);
+  background-repeat: no-repeat;
+  height: 198px;
+}
+
+.game_5 {
+  background-image: url(img/game5.png);
+  background-repeat: no-repeat;
+}
+
+.game_6 {
+  background-image: url(img/game6.png);
+  background-repeat: no-repeat;
+  height: 198px;
+}
+.next {
+  background: #202027;
+  background-image: url(img/bckmini.png);
 }
