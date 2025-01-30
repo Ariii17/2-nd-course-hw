@@ -1,0 +1,144 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48.76px;
+        text-align: center;
+        padding-top: 147px;
+    }
+    .top {
+        background-image: url(img/Starm1.png), url(img/Starm2.png), url(img/starm3.png), url(img/starm4.png), url(img/Starm5.png);
+        background-position: calc(0% + 38px) 97px, calc(0% + 92px) 64px, calc(0% + 219.81px) -2.43px, calc(0% + 273px) 557px, calc(0% + 304px) 580px;
+        height: 648.5px;
+    }
+    .top__content {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.5px;
+        text-align: center;
+    }
+    .middle {
+        display: none;
+    }
+    .button-border {
+        width: 285px;
+        height: 55px;
+        margin-left: 28px;
+        margin-top: 36px;
+    }
+    .line {
+        height: 51.5px;
+      
+    }
+    h2 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 17.6px;
+    }
+    h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.76px;
+    }
+    .minigame {
+        display: flex;
+        flex-direction: column;
+    }
+    .minigame {
+    background: #202027;
+    height: 3740px;
+    }
+    .mini__content {
+    height: 200px;
+    }
+    .name__content {
+      color:#FFF;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 32px;
+      padding-top: 32px;
+      max-width: 720px;
+    }
+    .minigame__container {
+        display: grid;
+        gap: 32px;
+        grid-template-columns: repeat(3, 1fr);
+        align-content: flex-start;
+        grid-template-rows: auto;
+        padding-top: 48px;
+    }
+  
+    .minigame__content {
+      color: #202027;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      text-decoration: none;
+      background-color: #fff;
+      width: 319px;
+      height: 159px;
+      border-radius: 30px;
+      padding-top: 338px;
+      padding-left: 24px;
+    }
+    .minigame__num {
+    background-color: #F7F7F7;
+    width: 108px;
+    font-size: 16px;
+    height: 36px;
+    border-radius: 52px;
+    text-align: center;
+    }
+    .minigame__name {
+    margin-top: 24px;
+    padding-left: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    width: 117px;
+    }
+  
+    .minigame__1 {
+      background-image: url(img/card1.png);
+      background-repeat: no-repeat;
+        height: 244px;
+    } 
+  
+    .minigame__2 {
+      background-image: url(img/card2.png);
+      background-repeat: no-repeat;
+      height: 283px;
+
+    }
+  
+    .minigame__3 {
+      background-image: url(img/card3.png);
+      background-repeat: no-repeat;
+      height: 283px;
+    }
+    .minigame__4 {
+    background-image: url(img/card4.png);
+    background-repeat: no-repeat;
+    height: 244px;
+
+    }
+  
+    .minigame__5 {
+    background-image: url(img/card5.png);
+    background-repeat: no-repeat;
+    height: 322px;
+
+    }
+  
+    .minigame__6 {
+    background-image: url(img/card6.png);
+    background-repeat: no-repeat;
+    height: 342px;
+
+    }
+}

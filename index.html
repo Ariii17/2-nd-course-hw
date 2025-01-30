@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.google.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,13 +14,16 @@
     <div class="top center">
         <h1>Добро пожаловать на мой сайт мини-игр!</h1>
         <div class="top__content">
-            <p >Тебе предстоит пройти несколько увлекательных игр. </p><p> Если готов, нажимай <strong>"Поехали!"</strong> и <strong>приступай</strong></p>
+            <p>Тебе предстоит пройти несколько увлекательных игр. </p><p> Если готов, нажимай <strong>"Поехали!"</strong> и <strong>приступай</strong></p>
         </div>
-        <a href="#bottom" class="button">Поехали!</a>
+        <div  class="button-border">
+            <a href="#bottom" class="button">Поехали!</a>
+        </div>
+        
     </div>
 </section>
 <div class="line">
-    <h2>Викторина Угадай число Переверни текст   Простая арифметика   Камень, ножницы, бумага  Генератор случайных цветов</h2>
+    <h2>Викторина Угадай число </h2>
 </div>
 <section class="middle center">
     <div class="name"> 
@@ -39,9 +44,17 @@
             </div>
         </div>    
 </section>
-<section class="next center">
+<section class="minigame center">
     <h3>Мини-игры</h3>
-    <div class="next__content"></div>
+    <div class="minigame__container">
+        <a href="#" class="minigame__content minigame__1"><p class="minigame__num">Игра № 1</p><p class="minigame__name">Угадай число</p></a>
+        <a href="#" class="minigame__content minigame__2"><p class="minigame__num">Игра № 2</p><p class="minigame__name">Простая арифметика</p></a>
+        <a href="#" class="minigame__content minigame__3"><p class="minigame__num">Игра № 3</p><p class="minigame__name">Переверни текст</p></a>
+        <a href="#" class="minigame__content minigame__4"><p class="minigame__num">Игра № 4</p><p class="minigame__name">Камень, ножницы, бумага</p></a>
+        <a href="#" class="minigame__content minigame__5"><p class="minigame__num">Игра № 5</p><p class="minigame__name">Простая викторина</p></a>
+        <a href="#" class="minigame__content minigame__6"><p class="minigame__num">Игра № 6</p><p class="minigame__name">Генератор случайных цветов</p></a>
+        </div>
+    </div>   
 </section>
 </body>
 </html>
