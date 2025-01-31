@@ -1,0 +1,10 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50%-786/2);
+        padding-right: calc(50%-786/2);
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 50px;
+    }
+}

@@ -147,6 +147,9 @@ h3 {
   height: 36px;
   border-radius: 52px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .game__name {
