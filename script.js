@@ -9,8 +9,7 @@ alert(js);
 
 let b = 10;
 let c = 2;
-let sum = b + c;
-let difference = b - c;
-let product = b * c;
-let quotient = b / c;
 alert(`${b + c}, ${b - c}, ${b * c}, ${b / c}`);
+
+let result = 2 ** 5;
+alert(result);
