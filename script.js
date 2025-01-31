@@ -1,5 +1,5 @@
-let a = 20;
-alert(a);
+let f = 20;
+alert(f);
 
 let iph = 2007;
 alert(iph);
@@ -7,9 +7,14 @@ alert(iph);
 let js = (`Bendan Eich`);
 alert(js);
 
-let b = 10;
-let c = 2;
-alert(`${b + c}, ${b - c}, ${b * c}, ${b / c}`);
+let c = 10;
+let d = 2;
+alert(`${c + d}, ${c - d}, ${c * d}, ${c / d}`);
 
 let result = 2 ** 5;
 alert(result);
+
+let a = 9;
+let b = 2;
+let remainder = a % b;
+alert(remainder);
