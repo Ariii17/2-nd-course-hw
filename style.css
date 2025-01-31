@@ -347,6 +347,17 @@ text-decoration: none;
 .minigame__link {
   text-decoration: none;
 }
+.footer {
+  height: 100px;
+  background-color: #BDED35;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.5px;
+}
 }
 
 /*# sourceMappingURL=style.css.map */
