@@ -37,3 +37,5 @@ const user = {
     isAdmin: false
 };
 
+let hisname = prompt(`Как Вас зовут?`);
+alert(`Привет, ${hisname}!`);
