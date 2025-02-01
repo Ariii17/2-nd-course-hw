@@ -17,7 +17,7 @@ body {
   background-color: #E1FF8F;
   background-repeat: no-repeat;
   background-image: url(img/Star11.png), url(img/Star12.png), url(img/Star13.png), url(img/Star14.png), url(img/Star15.png);
-  background-position: calc(0% + 63px) 94px, calc(0% + 156px) 69px, calc(0% + 854px) -3.46px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
+  background-position: calc(0% + 63px) 94px, calc(0% + 156px) 69px, calc(100%) -3.46px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
 }
 
 h1 {
@@ -213,10 +213,12 @@ h1 {
     line-height: 48.76px;
     text-align: center;
     padding-top: 147px;
+    padding-left: 60px;
+    max-width: 262px;
 }
 .top {
     background-image: url(img/mobimg/Starm1.png), url(img/mobimg/Starm2.png), url(img/mobimg/starm3.png), url(img/mobimg/starm4.png), url(img/mobimg/Starm5.png);
-    background-position: calc(0% + 38px) 97px, calc(0% + 92px) 64px, calc(0% + 219.81px) -2.43px, calc(0% + 273px) 557px, calc(0% + 304px) 580px;
+    background-position: calc(0% + 38px) 97px, calc(0% + 92px) 64px, calc(100%) -2.43px, calc(0% + 273px) 557px, calc(0% + 304px) 580px;
     height: 648.5px;
 }
 .top__content {
@@ -231,7 +233,7 @@ h1 {
 .button-border {
     width: 285px;
     height: 55px;
-    margin-left: 28px;
+    margin-left: 48px;
     margin-top: 36px;
 }
 .line {
