@@ -189,8 +189,192 @@ h3 {
 }
 
 .minigame {
-    display: none;
+  display: none;
+  flex-direction: column;
+  background: #202027;
+  height: 3740px;
 }
+
+/* .minigame__container {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  padding-top: 48px;
+}
+
+
+.minigame__box {
+background-color: #fff;
+width: 1200px;
+border-radius: 30px;
+display: flex;
+flex-direction: row-reverse;
+}
+.minigame__img {
+width: 50%;
+}
+.minigame__content{
+padding-top: 48px;
+display: flex;
+flex-direction: column;
+gap: 32px;
+}
+.minigame__name {
+font-size: 48px;
+font-weight: 700;
+width: 504px;
+line-height: 58.5px;
+color: #202027;
+text-decoration: none;
+}
+.minigame__des {
+max-width: 284px;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color: #202027;
+text-decoration: none;
+}
+.gamebutton-border {
+width: 247px;
+height: 66px;
+border-radius: 30px;
+background: #202027;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+}
+
+.gamebutton {
+color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+
+}
+.minigame__1 {
+height: 528.6px;
+text-decoration: none;
+} 
+
+.minigame__2 {
+height: 567.6px;
+text-decoration: none;
+}
+
+.minigame__3 {
+height: 567.6px;
+text-decoration: none;
+}
+.minigame__4 {
+height: 528.6px;
+text-decoration: none;
+}
+
+.minigame__5 {
+height: 606.6px;
+text-decoration: none;
+}
+
+.minigame__6 {
+height: 626.6px;
+text-decoration: none;
+}
+.minigame__link {
+text-decoration: none;
+} */
+
+.minidesk {
+  height: 3500px;
+  background-color:  #202027;
+  background-repeat: no-repeat;
+  background-image: url(img/Starmi1.png), url(img/Starmi2.png), url(img/Starmi3.png), url(img/Starmi4.png);
+  background-position: calc(0% + 1281.3px) 2363px, calc(0% + 1326.54px) 2396px, calc(0% + 1249px) 5684px, calc(0% + 1319px) 5636px;
+}
+.minidesk__container {
+  width: 1200px;
+  height: 3310px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.minidesk__link {
+  text-decoration: none;
+  color: #202027;
+}
+.minidesk__box {
+  background-color: #ffff;
+  height: 500px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+    &_2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    &_4 {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    &_6 {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+}
+.minidesk__content {
+  padding-top: 48px;
+  padding-left: 48px;
+  max-width: 504px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+    &_name {
+      font-size: 48px;
+      font-weight: 700;
+    }
+    &_des {
+      padding-top: 24px;
+      font-size: 24px;
+      font-weight: 400;
+      max-width: 467px;
+    }
+    &_button {
+      background-color: #202027;
+      border-radius: 60px;
+      width: 247px;
+      height: 66px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .buttonm {
+      text-decoration: none;
+      color: #FFF;
+      font-size: 24px;
+      font-weight: 600;
+    }
+}
+.footer {
+  height: 150px;
+  background-color: #BDED35;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29.5px;
+}
+
 
 
 @import 'mobile'
