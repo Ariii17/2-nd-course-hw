@@ -85,4 +85,10 @@ let obj = {
 
 for (let key in obj) {
     alert(`${key} — зарплата ${obj[key]} долларов`);
-}
+};
+
+let n = 1000;
+do {
+    n = n / 2;
+} while (n > 50);
+alert(n);
