@@ -215,6 +215,16 @@ h3 {
     padding-left: 60px;
     max-width: 262px;
   }
+  h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17.6px;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.76px;
+  }
   .top {
     background-image: url(img/mobimg/Starm1.png), url(img/mobimg/Starm2.png), url(img/mobimg/starm3.png), url(img/mobimg/starm4.png), url(img/mobimg/Starm5.png);
     background-position: calc(0% + 38px) 97px, calc(0% + 92px) 64px, 100% -2.43px, calc(0% + 273px) 557px, calc(0% + 304px) 580px;
@@ -238,16 +248,7 @@ h3 {
   .line {
     height: 51.5px;
   }
-  h2 {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 17.6px;
-  }
-  h3 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48.76px;
-  }
+  
   .minidesk {
     height: 3500px;
     background-color: #202027;
