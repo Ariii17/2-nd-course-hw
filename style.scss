@@ -139,6 +139,10 @@ h3 {
   height: 36px;
   border-radius: 52px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
 }
 .game__name {
   margin-top: 24px;
@@ -301,6 +305,7 @@ text-decoration: none;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
+  padding-top: 72px;
 }
 .minidesk__link {
   text-decoration: none;
@@ -336,32 +341,32 @@ text-decoration: none;
   display: flex;
   flex-direction: column;
   gap: 24px;
-    &_name {
-      font-size: 48px;
-      font-weight: 700;
-    }
-    &_des {
-      padding-top: 24px;
-      font-size: 24px;
-      font-weight: 400;
-      max-width: 467px;
-    }
-    &_button {
-      background-color: #202027;
-      border-radius: 60px;
-      width: 247px;
-      height: 66px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
-    .buttonm {
-      text-decoration: none;
-      color: #FFF;
-      font-size: 24px;
-      font-weight: 600;
-    }
+}
+.minidesk__name {
+  font-size: 48px;
+  font-weight: 700;
+}
+.minidesk__des {
+    padding-top: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 467px;
+  }
+.minidesk__button {
+  background-color: #202027;
+  border-radius: 60px;
+  width: 247px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.buttonm {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 600;
 }
 .footer {
   height: 150px;
