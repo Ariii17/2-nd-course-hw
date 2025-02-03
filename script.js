@@ -59,9 +59,14 @@ switch (monthNumber) {
     break;
 };*/
 
-let i = 0;
-while (i < 2) {
+let c = 0;
+while (c < 2) {
     alert (`Привет`);
-    i++;
+    c++;
 };
 
+let i = 1;
+do {
+    alert(i);
+    i++;
+} while (i <= 5);
