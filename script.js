@@ -70,3 +70,10 @@ do {
     alert(i);
     i++;
 } while (i <= 5);
+
+let a = 7;
+do {
+    alert(a);
+    a++;
+} while (a <= 22);
+
