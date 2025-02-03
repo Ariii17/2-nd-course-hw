@@ -1,4 +1,4 @@
-let password = 'пароль';
+/*let password = 'пароль';
 let ask = prompt(`Введите пароль`);
 
 alert(ask === password ? `Пароль введен верно` : `Пароль введен неправильно`);
@@ -57,4 +57,11 @@ switch (monthNumber) {
         break; 
     default: alert(`Такого месяца нет`);
     break;
-}
+};*/
+
+let i = 0;
+while (i < 2) {
+    alert (`Привет`);
+    i++;
+};
+
