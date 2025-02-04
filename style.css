@@ -73,7 +73,7 @@ h1 {
 .middle {
   background: #202027;
   background-image: url(img/Star21.png), url(img/Star22.png), url(img/Star23.png);
-  background-position: calc(0% + 27.97px) 770px, calc(0% + 45.18px) 822px, calc(0% + 933px) 145.92px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
+  background-position: calc(0% + 27.97px) 770px, calc(0% + 45.18px) 822px, 100% 145.92px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
   background-repeat: no-repeat;
 }
 
