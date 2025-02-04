@@ -17,7 +17,7 @@ body {
   background-color: #E1FF8F;
   background-repeat: no-repeat;
   background-image: url(img/Star11.png), url(img/Star12.png), url(img/Star13.png), url(img/Star14.png), url(img/Star15.png);
-  background-position: calc(0% + 63px) 94px, calc(0% + 156px) 69px, calc(100%) -3.46px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
+  background-position: calc(0% + 63px) 94px, calc(0% + 156px) 69px, 100% -3.46px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
 }
 
 h1 {
@@ -197,10 +197,6 @@ h3 {
   grid-row: 2/4;
 }
 
-.minigame {
-  display: none;
-}
-
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -214,16 +210,6 @@ h3 {
     padding-top: 147px;
     padding-left: 60px;
     max-width: 262px;
-  }
-  h2 {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 17.6px;
-  }
-  h3 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48.76px;
   }
   .top {
     background-image: url(img/mobimg/Starm1.png), url(img/mobimg/Starm2.png), url(img/mobimg/starm3.png), url(img/mobimg/starm4.png), url(img/mobimg/Starm5.png);
@@ -248,7 +234,16 @@ h3 {
   .line {
     height: 51.5px;
   }
-  
+  h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17.6px;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.76px;
+  }
   .minidesk {
     height: 3500px;
     background-color: #202027;
@@ -336,6 +331,4 @@ h3 {
     font-size: 16px;
     line-height: 19.5px;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
