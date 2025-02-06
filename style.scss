@@ -16,7 +16,7 @@ body {
     background-color: #E1FF8F;
     background-repeat: no-repeat;
     background-image: url(img/Star11.png), url(img/Star12.png), url(img/Star13.png), url(img/Star14.png), url(img/Star15.png);
-    background-position: calc(0% + 63px) 94px, calc(0% + 156px) 69px, calc(0% + 854px) -3.46px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
+    background-position: calc(0% + 63px) 94px, calc(0% + 156px) 69px, calc(100%) -3.46px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
 
   }
   h1 {
@@ -72,7 +72,7 @@ body {
 .middle {
     background: #202027;
     background-image: url(img/Star21.png), url(img/Star22.png), url(img/Star23.png);
-    background-position: calc(0% + 27.97px) 770px, calc(0% + 45.18px) 822px, calc(0% + 933px) 145.92px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
+    background-position: calc(0% + 27.97px) 770px, calc(0% + 45.18px) 822px, calc(100%) 145.92px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
     background-repeat: no-repeat;
   }
 
@@ -140,8 +140,9 @@ h3 {
   border-radius: 52px;
   text-align: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  font-weight: 500;
 }
 .game__name {
   margin-top: 24px;
@@ -190,14 +191,14 @@ h3 {
   height: 237px;
   grid-row: 2/4;
 }
+
 .minidesk {
   height: 3500px;
-  background-color: #202027;
+  background-color:  #202027;
   background-repeat: no-repeat;
   background-image: url(img/Starmi1.png), url(img/Starmi2.png), url(img/Starmi3.png), url(img/Starmi4.png);
   background-position: calc(0% + 1281.3px) 2363px, calc(0% + 1326.54px) 2396px, calc(0% + 1249px) 5684px, calc(0% + 1319px) 5636px;
 }
-
 .minidesk__container {
   width: 1200px;
   height: 3310px;
@@ -206,36 +207,33 @@ h3 {
   row-gap: 16px;
   padding-top: 72px;
 }
-
 .minidesk__link {
   text-decoration: none;
   color: #202027;
 }
-
 .minidesk__box {
-  background-color: white;
+  background-color: #ffff;
   height: 500px;
   border-radius: 30px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+    &_2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    &_4 {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    &_6 {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
 }
-.minidesk__box_2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.minidesk__box_4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.minidesk__box_6 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
 .minidesk__content {
   padding-top: 48px;
   padding-left: 48px;
@@ -244,19 +242,16 @@ h3 {
   flex-direction: column;
   gap: 24px;
 }
-
 .minidesk__name {
   font-size: 48px;
   font-weight: 700;
 }
-
 .minidesk__des {
-  padding-top: 24px;
-  font-size: 24px;
-  font-weight: 400;
-  max-width: 467px;
-}
-
+    padding-top: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 467px;
+  }
 .minidesk__button {
   background-color: #202027;
   border-radius: 60px;
@@ -267,14 +262,12 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-
 .buttonm {
   text-decoration: none;
   color: #FFF;
   font-size: 24px;
   font-weight: 600;
 }
-
 .footer {
   height: 150px;
   background-color: #BDED35;
@@ -287,6 +280,6 @@ h3 {
   line-height: 29.5px;
 }
 
-@import 'mobile';
-@import 'tablet';
+
+@import 'tablett';
 
