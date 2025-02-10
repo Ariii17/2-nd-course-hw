@@ -92,3 +92,10 @@ do {
     n = n / 2;
 } while (n > 50);
 alert(n);
+
+let firstFriday = 1;
+
+for (let day = firstFriday; day <= 31; day +=7) {
+    alert(`Сегодня пятница, ${day} -е число. Необходимо подготовить отчет.`);
+};
+
