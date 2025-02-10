@@ -17,7 +17,7 @@ body {
   background-color: #E1FF8F;
   background-repeat: no-repeat;
   background-image: url(img/Star11.png), url(img/Star12.png), url(img/Star13.png), url(img/Star14.png), url(img/Star15.png);
-  background-position: calc(0% + 63px) 94px, calc(0% + 156px) 69px, calc(100%) -3.46px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
+  background-position: calc(0% + 63px) 94px, calc(0% + 156px) 69px, 100% -3.46px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
 }
 
 h1 {
@@ -73,7 +73,7 @@ h1 {
 .middle {
   background: #202027;
   background-image: url(img/Star21.png), url(img/Star22.png), url(img/Star23.png);
-  background-position: calc(0% + 27.97px) 770px, calc(0% + 45.18px) 822px, calc(100%) 145.92px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
+  background-position: calc(0% + 27.97px) 770px, calc(0% + 45.18px) 822px, 100% 145.92px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
   background-repeat: no-repeat;
 }
 
@@ -148,8 +148,9 @@ h3 {
   border-radius: 52px;
   text-align: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  font-weight: 500;
 }
 
 .game__name {
@@ -200,139 +201,177 @@ h3 {
   grid-row: 2/4;
 }
 
-
-@media (max-width: 767px) {
-  .center {
-    padding-left: 16px;
-    padding-right: 16px;
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48.76px;
-    text-align: center;
-    padding-top: 147px;
-}
-.top {
-    background-image: url(img/mobimg/Starm1.png), url(img/mobimg/Starm2.png), url(img/mobimg/starm3.png), url(img/mobimg/starm4.png), url(img/mobimg/Starm5.png);
-    background-position: calc(0% + 38px) 97px, calc(0% + 92px) 64px, calc(0% + 219.81px) -2.43px, calc(0% + 273px) 557px, calc(0% + 304px) 580px;
-    height: 648.5px;
-}
-.top__content {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19.5px;
-    text-align: center;
-}
-.middle {
-    display: none;
-}
-.button-border {
-    width: 285px;
-    height: 55px;
-    margin-left: 28px;
-    margin-top: 36px;
-}
-.line {
-    height: 51.5px;
-  
-}
-h2 {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 17.6px;
-}
-h3 {
-font-weight: 700;
-font-size: 40px;
-line-height: 48.76px;
-}
 .minidesk {
   height: 3500px;
   background-color: #202027;
   background-repeat: no-repeat;
+  background-image: url(img/Starmi1.png), url(img/Starmi2.png), url(img/Starmi3.png), url(img/Starmi4.png);
+  background-position: calc(0% + 1281.3px) 2363px, calc(0% + 1326.54px) 2396px, calc(0% + 1249px) 5684px, calc(0% + 1319px) 5636px;
 }
+
 .minidesk__container {
-  width: 343px;
+  width: 1200px;
   height: 3310px;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
-  padding-top: 48px;
+  padding-top: 72px;
 }
+
 .minidesk__link {
   text-decoration: none;
   color: #202027;
 }
+
 .minidesk__box {
   background-color: white;
-  height: 529px;
+  height: 500px;
   border-radius: 30px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 .minidesk__box_2 {
-  height: 568px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
-.minidesk__box_3 {
-  height: 568px;
-}
-.minidesk__box_5 {
-  height: 607px;
+.minidesk__box_4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 .minidesk__box_6 {
-  height: 627px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
+
 .minidesk__img {
   width: 100%;
 }
+
 .minidesk__content {
-  padding-top: 29px;
-  padding-left: 29px;
-  max-width: 285px;
+  padding-top: 48px;
+  padding-left: 48px;
+  max-width: 504px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
 }
+
 .minidesk__name {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 700;
 }
+
 .minidesk__des {
   padding-top: 24px;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
   max-width: 467px;
 }
+
 .minidesk__button {
   background-color: #202027;
   border-radius: 60px;
-  width: 285px;
-  height: 55px;
+  width: 247px;
+  height: 66px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
 .buttonm {
   text-decoration: none;
   color: #FFF;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 600;
 }
+
 .footer {
-  height: 100px;
+  height: 150px;
   background-color: #BDED35;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 19.5px;
-}
+  font-size: 24px;
+  line-height: 29.5px;
 }
 
-/*# sourceMappingURL=style.css.map */
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 343px);
+    padding-right: calc(50% - 343px);
+  }
+  .top {
+    height: 600px;
+    background-color: #E1FF8F;
+    background-repeat: no-repeat;
+    background-image: url(img/Star11.png), url(img/Star12.png), url(img/Star14.png), url(img/Star15.png);
+    background-position: calc(0% + 63px) 94px, calc(0% + 156px) 69px, calc(0% + 567px) 468px, calc(0% + 600px) 478px;
+  }
+  h1 {
+    color: #202027;
+    font-size: 52px;
+    font-weight: 700;
+    max-width: 740px;
+  }
+  .line {
+    height: 70px;
+  }
+  .minidesk {
+    height: 2100px;
+  }
+  .top__content {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 46px;
+  }
+  .middle {
+    display: none;
+  }
+  .minidesk__container {
+    width: 730px;
+  }
+  .minidesk__box {
+    height: 300px;
+  }
+  .minidesk__content {
+    padding-top: 16px;
+    padding-left: 28px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .minidesk__name {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .minidesk__des {
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 300px;
+  }
+  .minidesk__button {
+    height: 55px;
+  }
+  .buttonm {
+    font-size: 16px;
+  }
+  .minidesk__img {
+    height: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}/*# sourceMappingURL=style.css.map */

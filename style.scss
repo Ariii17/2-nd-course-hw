@@ -234,6 +234,9 @@ h3 {
       justify-content: flex-start;
     }
 }
+.minidesk__img {
+  width: 100%;
+}
 .minidesk__content {
   padding-top: 48px;
   padding-left: 48px;
@@ -281,5 +284,7 @@ h3 {
 }
 
 
-@import 'tablett';
+@import 'tablet';
+
+
 

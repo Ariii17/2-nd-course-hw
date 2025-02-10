@@ -1,0 +1,73 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 343px);
+        padding-right: calc(50% - 343px);
+    }
+    .top {
+    height: 600px;
+    background-color: #E1FF8F;
+    background-repeat: no-repeat;
+    background-image: url(img/Star11.png), url(img/Star12.png), url(img/Star14.png), url(img/Star15.png);
+    background-position: calc(0% + 63px) 94px, calc(0% + 156px) 69px, calc(0% + 567px) 468px, calc(0% + 600px) 478px;
+    }
+    h1 {
+    color: #202027;
+    font-size: 52px;
+    font-weight: 700;
+    max-width: 740px;
+    }
+    .line {
+    height: 70px;
+    }
+    .minidesk {
+    height: 2100px;
+    }
+    .top__content {
+    font-size: 20px;
+    }
+    h3 {
+    font-size: 46px;
+    }
+    .middle {
+    display: none;
+    }
+    .minidesk__container {
+    width: 730px;
+    }
+    .minidesk__box {
+    height: 300px;
+    }
+    .minidesk__content {
+    padding-top: 16px;
+    padding-left: 28px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    }
+    .minidesk__name {
+    font-size: 32px;
+    font-weight: 700;
+    }
+    .minidesk__des {
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 300px;
+    }
+    .minidesk__button {
+    height: 55px;
+    }
+    .buttonm {
+    font-size: 16px;
+    }
+    .minidesk__img {
+    height: 300px;
+    }
+}
+@media (min-width: 768px) and (max-width: 833px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
