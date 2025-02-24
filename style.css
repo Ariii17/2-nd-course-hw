@@ -213,6 +213,7 @@ h3 {
   background-repeat: no-repeat;
   background-image: url(img/Starmi1.png), url(img/Starmi2.png), url(img/Starmi3.png), url(img/Starmi4.png);
   background-position: calc(0% + 1281.3px) 2363px, calc(0% + 1326.54px) 2396px, calc(0% + 1249px) 5684px, calc(0% + 1319px) 5636px;
+  padding-bottom: 144px;
 }
 
 .minidesk__container {
@@ -253,6 +254,7 @@ h3 {
 
 .minidesk__img {
   width: 100%;
+  height: 100%;
 }
 
 .minidesk__content {
@@ -429,6 +431,7 @@ h3 {
   .minidesk {
     background-color: #202027;
     background-repeat: no-repeat;
+    padding-bottom: 49px;
   }
   .minidesk__container {
     width: 343px;
