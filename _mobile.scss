@@ -1,138 +1,121 @@
 @media (max-width: 767px) {
-    .center {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-    
-    h1 {
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 48.76px;
-        text-align: center;
-        padding-top: 147px;
-        padding-left: 60px;
-        max-width: 262px;
-    }
-    .top {
-        background-image: url(img/mobimg/Starm1.png), url(img/mobimg/Starm2.png), url(img/mobimg/starm3.png), url(img/mobimg/starm4.png), url(img/mobimg/Starm5.png);
-        background-position: calc(0% + 38px) 97px, calc(0% + 92px) 64px, calc(100%) -2.43px, calc(0% + 273px) 557px, calc(0% + 304px) 580px;
-        height: 648.5px;
-    }
-    .top__content {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19.5px;
-        text-align: center;
-    }
-    .middle {
-        display: none;
-    }
-    .button-border {
-        width: 285px;
-        height: 55px;
-        margin-left: 48px;
-        margin-top: 36px;
-    }
-    .line {
-        height: 51.5px;
-      
-    }
-    h2 {
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 17.6px;
-    }
-    h3 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48.76px;
-    }
-    .minidesk {
-      height: 3500px;
-      background-color:  #202027;
-      background-repeat: no-repeat;
-      /*background-image: url(img/Starmi1.png), url(img/Starmi2.png), url(img/Starmi3.png), url(img/Starmi4.png);
-      background-position: calc(0% + 1281.3px) 2363px, calc(0% + 1326.54px) 2396px, calc(0% + 1249px) 5684px, calc(0% + 1319px) 5636px;*/
-    }
-    .minidesk__container {
-      width: 343px;
-      height: 3310px;
-      display: flex;
-      flex-direction: column;
-      row-gap: 16px;
-      padding-top: 48px;
-    }
-    .minidesk__link {
-      text-decoration: none;
-      color: #202027;
-    }
-    .minidesk__box {
-      background-color: #ffff;
-      height: 529px;
-      border-radius: 30px;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-        &_2 {
-          height: 568px;
-        }
-        &_3 {
-          height: 568px;
-        }
-        &_5 {
-          height: 607px;
-        }
-        &_6 {
-          height: 627px;
-        }
-    }
-    .minidesk__img {
-      width: 100%;
-    }
-    .minidesk__content {
-      padding-top: 29px;
-      padding-left: 29px;
-      max-width: 285px;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-    .minidesk__name {
-      font-size: 32px;
+  .center {
+      padding-left: 16px;
+      padding-right: 16px;
+  }
+  
+  h1 {
       font-weight: 700;
-    }
-    .minidesk__des {
-        padding-top: 24px;
-        font-size: 16px;
-        font-weight: 400;
-        max-width: 467px;
-      }
-    .minidesk__button {
-      background-color: #202027;
-      border-radius: 60px;
+      font-size: 40px;
+      line-height: 48.76px;
+      text-align: center;
+      padding: 0 10px;
+      padding-top: 147px;
+  }
+  .top {
+      background-image: url(img/mobimg/Starm1.png), url(img/mobimg/Starm2.png), url(img/mobimg/starm3.png), url(img/mobimg/starm4.png), url(img/mobimg/Starm5.png);
+      background-position: calc(0% + 38px) 97px, calc(0% + 92px) 64px, calc(100%) -2.43px, calc(0% + 273px) 557px, calc(0% + 304px) 580px;
+      height: 648.5px;
+  }
+  .top__content {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19.5px;    
+      text-align: center;
+  }
+  .middle {
+      display: none;
+  }
+  .button-border {
       width: 285px;
       height: 55px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
-    .buttonm {
-      text-decoration: none;
-      color: #FFF;
+      margin: 0 auto;
+      margin-top: 36px;
+  }
+  .line {
+      height: 51.5px;
+    
+  }
+  h2 {
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 700;
+      line-height: 17.6px;
+  }
+  h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.76px;
+  }
+  .minidesk {
+    background-color:  #202027;
+    background-repeat: no-repeat;
+  }
+  .minidesk__container {
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    padding-top: 48px;
+  }
+  .minidesk__link {
+    text-decoration: none;
+    color: #202027;
+  }
+  .minidesk__box {
+    background-color: #ffff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+  }
+  .minidesk__img {
+    width: 100%;
+   }
+  .minidesk__content {
+    padding-top: 29px;
+    padding-left: 29px;
+    max-width: 285px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .minidesk__name {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .minidesk__des {
+      padding-top: 24px;
+      font-size: 16px;
+      font-weight: 400;
+      max-width: 467px;
     }
+  .minidesk__button {
+    background-color: #202027;
+    border-radius: 60px;
+    width: 285px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonm {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+  }
 
-    .footer {
-        height: 100px;
-        background-color: #BDED35;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 19.5px;
-      }
+  .footer {
+      height: 100px;
+      background-color: #BDED35;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19.5px;
     }
+  }
