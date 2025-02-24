@@ -26,7 +26,7 @@ body {
     font-weight: 700;
     line-height: normal;
     padding-top: 217px;
-    max-width: 740px;
+    max-width: 769px;
   }
   
   .top__content {
@@ -72,7 +72,7 @@ body {
 .middle {
     background: #202027;
     background-image: url(img/Star21.png), url(img/Star22.png), url(img/Star23.png);
-    background-position: calc(0% + 27.97px) 770px, calc(0% + 45.18px) 822px, calc(0% + 933px) 145.92px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
+    background-position: calc(0% + 27.97px) 770px, calc(0% + 45.18px) 822px, calc(100%) 145.92px, calc(0% + 948px) 538px, calc(0% + 1013px) 548px;
     background-repeat: no-repeat;
   }
 
@@ -193,7 +193,6 @@ h3 {
 }
 
 .minidesk {
-  height: 3500px;
   background-color:  #202027;
   background-repeat: no-repeat;
   background-image: url(img/Starmi1.png), url(img/Starmi2.png), url(img/Starmi3.png), url(img/Starmi4.png);
@@ -201,7 +200,6 @@ h3 {
 }
 .minidesk__container {
   width: 1200px;
-  height: 3310px;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
@@ -213,7 +211,6 @@ h3 {
 }
 .minidesk__box {
   background-color: #ffff;
-  height: 500px;
   border-radius: 30px;
   display: flex;
   flex-direction: row-reverse;
@@ -233,6 +230,9 @@ h3 {
       flex-direction: row;
       justify-content: flex-start;
     }
+}
+.minidesk__img {
+  width: 100%;
 }
 .minidesk__content {
   padding-top: 48px;
@@ -281,5 +281,9 @@ h3 {
 }
 
 
+@import 'tablet';
+@import 'mobile';
 
-@import 'mobile'
+
+
+
