@@ -68,7 +68,12 @@ body {
     text-decoration: none;
 
   }
-
+  .line {
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: scroll;
+    width: 100vw;
+  }
 .middle {
     background: #202027;
     background-image: url(img/Star21.png), url(img/Star22.png), url(img/Star23.png);
