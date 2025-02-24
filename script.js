@@ -58,6 +58,7 @@ switch (monthNumber) {
     default: alert(`Такого месяца нет`);
     break;
 };*/
+console.log('12');
 
 let c = 0;
 while (c < 2) {
@@ -98,4 +99,6 @@ let firstFriday = 1;
 for (let day = firstFriday; day <= 31; day +=7) {
     alert(`Сегодня пятница, ${day} -е число. Необходимо подготовить отчет.`);
 };
+
+
 
