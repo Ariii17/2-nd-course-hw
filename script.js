@@ -1,4 +1,5 @@
 {let password = 'пароль';
+
 let ask = prompt(`Введите пароль`);
 
 alert(ask === password ? `Пароль введен верно` : `Пароль введен неправильно`);
@@ -99,3 +100,45 @@ const user = {
 
 let hisname = prompt(`Как Вас зовут?`);
 alert(`Привет, ${hisname}!`);
+
+
+let c = 0;
+while (c < 2) {
+    alert (`Привет`);
+    c++;
+};
+
+let i = 1;
+do {
+    alert(i);
+    i++;
+} while (i <= 5);
+
+let a = 7;
+do {
+    alert(a);
+    a++;
+} while (a <= 22);
+
+let obj = {
+    "Коля" : '200',
+    "Вася" : '300',
+    "Петя" : '400'
+};
+
+for (let key in obj) {
+    alert(`${key} — зарплата ${obj[key]} долларов`);
+};
+
+let n = 1000;
+do {
+    n = n / 2;
+} while (n > 50);
+alert(n);
+
+let firstFriday = 1;
+
+for (let day = firstFriday; day <= 31; day +=7) {
+    alert(`Сегодня пятница, ${day} -е число. Необходимо подготовить отчет.`);
+};
+
