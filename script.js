@@ -1,4 +1,11 @@
-{let password = 'пароль';
+let i = 1;
+do {
+    console.log(i);
+    i++;
+} while (i <= 5);
+console.log(i);
+
+/*{let password = 'пароль';
 
 let ask = prompt(`Введите пароль`);
 
@@ -144,6 +151,6 @@ let firstFriday = 1;
 for (let day = firstFriday; day <= 31; day +=7) {
     alert(`Сегодня пятница, ${day} -е число. Необходимо подготовить отчет.`);
 };
-
+*/
 
 
