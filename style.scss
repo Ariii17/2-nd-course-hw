@@ -83,11 +83,6 @@ body {
     align-items: center;
     flex-wrap: nowrap;
     border: 1px solid black;
-  }
-  .button-border:hover {
-    background-color: #FFFFFF;
-  }
-  .button {
     color: #FFF;
     font-family: Montserrat;
     font-size: 18px;
@@ -96,9 +91,11 @@ body {
     line-height: normal;
     text-decoration: none;
   }
-  .button:hover {
+  .button-border:hover {
+    background-color: #FFFFFF;
     color: #202027;
   }
+
 .middle {
     background: #202027;
     background-image: url(img/Star21.png), url(img/Star22.png), url(img/Star23.png);
