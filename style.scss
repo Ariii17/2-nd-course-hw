@@ -40,12 +40,37 @@ body {
   }
   .line {
     color: #202027;
-    background-color: #BCEC30;
+    padding-top: 27px;
     font-size: 18px;
     justify-content: center;
-    height: 90px;
-
+    padding: 27px;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 51px;
   }
+  .line-back {
+    background-color: #BCEC30;
+  }
+  .starline {
+    width: 36px;
+    height: 36px;
+  }
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+.scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+}
+.line {
+  overflow: visible; 
+  white-space: nowrap; 
+  animation: scroll 10s linear infinite;
+}
 
   .button-border {
     width: 234px;
@@ -58,6 +83,9 @@ body {
     align-items: center;
     flex-wrap: nowrap;
   }
+  .button-border:hover {
+    background-color: #FFFFFF;
+  }
   .button {
     color: #FFF;
     font-family: Montserrat;
@@ -66,13 +94,9 @@ body {
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-
   }
-  .line {
-    font-size: 30px;
-    white-space: nowrap;
-    overflow: scroll;
-    width: 100vw;
+  .button:hover {
+    color: #202027;
   }
 .middle {
     background: #202027;
@@ -82,7 +106,8 @@ body {
   }
 
 .game {
-    padding-top: 128px;
+
+    padding-top: 72px;
     column-gap: 32px;
     display: flex;
 }
