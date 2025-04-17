@@ -162,6 +162,10 @@ h3 {
     padding-top: 338px;
     padding-left: 24px;
 }
+.game__content:hover {
+  transform: scale(1.05);
+  }
+
 .game__num {
   background-color: #F7F7F7;
   width: 108px;
