@@ -55,6 +55,7 @@ h1 {
 
 .line-back {
   background-color: #BCEC30;
+  overflow-x: hidden;
 }
 
 .starline {
@@ -74,6 +75,7 @@ h1 {
   display: inline-block;
   white-space: nowrap;
   animation: scroll 10s linear infinite;
+  width: 100%;
 }
 
 .line {

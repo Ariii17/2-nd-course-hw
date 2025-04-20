@@ -52,6 +52,7 @@ body {
   }
   .line-back {
     background-color: #BCEC30;
+    overflow-x: hidden;
   }
   .starline {
     width: 36px;
@@ -65,11 +66,13 @@ body {
     display: inline-block;
     white-space: nowrap;
     animation: scroll 10s linear infinite;
+    width: 100%;
 }
 .line {
   overflow: visible; 
   white-space: nowrap; 
   animation: scroll 10s linear infinite;
+
 }
 
   .button-border {
