@@ -40,12 +40,40 @@ body {
   }
   .line {
     color: #202027;
-    background-color: #BCEC30;
+    padding-top: 27px;
     font-size: 18px;
     justify-content: center;
-    height: 90px;
-
+    padding: 27px;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 51px;
   }
+  .line-back {
+    background-color: #BCEC30;
+    overflow-x: hidden;
+  }
+  .starline {
+    width: 36px;
+    height: 36px;
+  }
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+.scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+    width: 100%;
+}
+.line {
+  overflow: visible; 
+  white-space: nowrap; 
+  animation: scroll 10s linear infinite;
+
+}
 
   .button-border {
     width: 234px;
@@ -57,8 +85,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-  }
-  .button {
+    border: 1px solid black;
     color: #FFF;
     font-family: Montserrat;
     font-size: 18px;
@@ -66,14 +93,14 @@ body {
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-
   }
-  .line {
-    font-size: 30px;
-    white-space: nowrap;
-    overflow: scroll;
-    width: 100vw;
+  .button-border:hover {
+    background-color: #FFFFFF;
+    color: #202027;
   }
+.button-start {
+  text-decoration: none;
+}
 .middle {
     background: #202027;
     background-image: url(img/Star21.png), url(img/Star22.png), url(img/Star23.png);
@@ -82,7 +109,8 @@ body {
   }
 
 .game {
-    padding-top: 128px;
+
+    padding-top: 72px;
     column-gap: 32px;
     display: flex;
 }
@@ -137,6 +165,10 @@ h3 {
     padding-top: 338px;
     padding-left: 24px;
 }
+.game__content:hover {
+  transform: scale(1.05);
+  }
+
 .game__num {
   background-color: #F7F7F7;
   width: 108px;
@@ -261,6 +293,10 @@ h3 {
   }
 .minidesk__button {
   background-color: #202027;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 600;
   border-radius: 60px;
   width: 247px;
   height: 66px;
@@ -268,12 +304,15 @@ h3 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
 }
+.minidesk__button:hover {
+  background-color: #FFFFFF;
+  color: #202027;
+}
+
 .buttonm {
   text-decoration: none;
-  color: #FFF;
-  font-size: 24px;
-  font-weight: 600;
 }
 .footer {
   height: 150px;
