@@ -1,4 +1,4 @@
-document.querySelector('.gameButton').addEventListener('click', 
+document.querySelector('.gameButtonFirst').addEventListener('click', 
 function gameFirst() {
 let guess = prompt("Попробуйте угадать число");
 if (guess < 0) {
